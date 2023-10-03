@@ -16,7 +16,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        pattern: "url('/pattern.png')",
+        pattern: `url('/pattern.png')`,
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
@@ -39,6 +39,7 @@ const config: Config = {
         'pos-0': '0% 0%',
         'pos-100': '100% 100%',
       },
+      'tailwindCSS.experimental.classRegex': ['[cC]lasses\\s*=\\s*`([\\s\\S]*?)`'],
     },
   },
   plugins: [require('tailwind-scrollbar')],

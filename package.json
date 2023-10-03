@@ -15,6 +15,7 @@
     "react-icons": "^4.11.0",
     "react-modal": "^3.16.1",
     "react-parallax-mouse": "^2.0.1",
+    "styled-components": "^6.0.8",
     "tailwind-scrollbar": "^3.0.5"
   },
   "devDependencies": {
@@ -22,6 +23,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/react-modal": "^3.16.1",
+    "@types/styled-components": "^5.1.28",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
     "autoprefixer": "latest",
